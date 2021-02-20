@@ -12,11 +12,10 @@ zinit ice depth=1
 zinit light romkatv/powerlevel10k
 
 # Oh-My-Zsh
-zinit snippet OMZP::colored-man-pages
-zinit snippet OMZ::plugins/extract
-zinit snippet OMZP::cp
-zinit snippet OMZP::safe-paste
-zinit snippet OMZP::sudo
+zinit snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
+
+zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
+
 
 [ -f $HOME/.config/zsh/plugin/pyenv.zsh ] && source $HOME/.config/zsh/plugin/pyenv.zsh
 [ -f $HOME/.config/zsh/plugin/p10k.zsh ] && source $HOME/.config/zsh/plugin/p10k.zsh
